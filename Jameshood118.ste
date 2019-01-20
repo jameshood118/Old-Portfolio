@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<site>
+<localinfo sitename="Jameshood118" ftporrdsserver="FALSE" localroot="M:%5CImportant%20Documents%5CDocuments%5CMy%20Work%5CProjects%5CWeb%20Work%5CJameshood118%5C" assetfolder="M:%5CImportant%20Documents%5CDocuments%5CMy%20Work%5CProjects%5CWeb%20Work%5CJameshood118%5CSpryAssets%5C" imagefolder="" spacerfilepath="" refreshlocal="TRUE" autouploadfiles="FALSE" maintainsyncinfo="TRUE" rewritedocrellinks="FALSE" cache="TRUE" httpaddress="http://jameshood118.org/" relativeTo="DOCUMENT" caseSensitiveLinks="FALSE" curserver="webserver"/>
+<remoteinfo accesstype="ftp" host="97.74.215.234" remoteroot="" user="prophet118" pw="547377686C66746B392A" checkoutname="" emailaddress="" enablecheckin="FALSE" checkoutwhenopen="TRUE" usefirewall="FALSE" usepasv="TRUE" useSFTP="FALSE" useIpv6="FALSE" useftpoptimization="TRUE" usealternaterename="FALSE" pathNameCharacterSet="Windows-1252"/>
+<designnotes usedesignnotes="TRUE" sharedesignnotes="FALSE"/>
+<sitemap homepage="" pagesperrow="200" columnwidth="125" showdependentfiles="FALSE" showpagetitles="FALSE" showhiddenfiles="FALSE"/>
+<fileviewcolumns sharecolumns="FALSE">
+    <column name="Local%20Files" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="95" remotewidth="180" />
+    <column name="Notes" align="center" show="FALSE" share="FALSE" builtin="TRUE" localwidth="36" remotewidth="36" />
+    <column name="Size" align="right" show="TRUE" share="FALSE" builtin="TRUE" localwidth="51" remotewidth="-2" />
+    <column name="Type" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="60" remotewidth="60" />
+    <column name="Modified" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="102" remotewidth="102" />
+    <column name="Checked%20Out%20By" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="-1" remotewidth="-1" />
+</fileviewcolumns>
+<appserverinfo servermodel="" urlprefix="http://localhost/" connectionsmigrated="FALSE" serverobjectsversion="1" defaultdoctype="HTML" accesstype="none" testsvrbinaccesstype="none"/>
+<cloaking enabled="TRUE" patterns="FALSE">
+    <cloakedpattern pattern=".fla"/>
+    <cloakedpattern pattern=".psd"/>
+</cloaking>
+<contributorintegration enabled="FALSE"/>
+</site>

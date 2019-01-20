@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+A:link {text-decoration: underline; color:#455b13;}
+A:hover {text-decoration: underline; color:#5b702b;}
+
+html, body, #wrap {
+	height: auto;
+	background-color:#fff;
+	width:1252px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:100%;
+	margin:0 auto;
+	
+	}
+
+body > #wrap {
+	
+	height: auto; 
+	min-height: 100%;
+    position:absolute;
+    margin: 0 auto;
+	left:50px;
+	top:5px;
+    right:50px;
+	bottom:150px;
+	}
+
+
+#main {
+	background-color: #fff;
+	width:1252px;
+	height:auto;
+	float:left;
+	background-color: transparent;
+	z-index:1;
+	} 
+	
+
+#left {
+	position:absolute;
+	background-image:url(images/slices_01.png);
+	background-repeat:no-repeat;
+	width:753px; 
+	height:750px;
+	left:5px;
+	top:0px;
+	float:left;
+	z-index:2;
+	} 
+	
+#lefttextbottom {
+	position:absolute;
+	font-size:12px;
+	left:262px;
+	top:103px;
+	width:333px;
+	height:151px;
+	z-index:5;
+	} 
+	
+#toplefttext {
+	position:absolute;
+	font-size:18px;
+	font-style: bold;
+	left:262px;
+	top:90px;
+	width:333px;
+	height:151px;
+	z-index:6;
+	} 
+
+#search {
+	position:absolute;
+	left:179px;
+	top:250px;
+	width:540px;
+	height:398px;
+	background-image:url(images/searchbg.png);
+	z-index:3;
+	} 
+
+#modalunder {
+	position:absolute;
+	left:19px;
+	top:91px;
+	width:333px;
+	height:151px;
+	background-image:url(images/modalarea.png);
+	z-index:4;
+	} 
+	
+#modalover {
+	position:absolute;
+	left:40px;
+	top:75px;
+	width:333px;
+	height:151px;
+	z-index:5;
+	} 
+
+#farright {
+	position:absolute;
+	background-image:url(images/slices_02.gif);
+	background-repeat:no-repeat;
+	width:499px;
+	height:750px;
+	left:755px;
+	top:0px;
+	float:right;
+	z-index:2;
+	} 
+	
+#righttext {
+	position:absolute;
+	font-size:12px;
+	left:16px;
+	top:250px;
+	width:333px;
+	height:151px;
+	z-index:6;
+	} 
+	/* float clearing for IE6 */
+* html .clearfix{
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .clearfix{
+  min-height: 1%;
+}
+
+/* float clearing for everyone else */
+.clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+
+.grey
+{
+color:#999;	
+	}
+
+
+table, td
+{
+width:60%;
+margin-left:25px;
+font-size:14px;
+}

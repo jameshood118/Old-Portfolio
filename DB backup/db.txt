@@ -1,0 +1,193 @@
+-- phpMyAdmin SQL Dump
+-- version 2.11.11.3
+-- http://www.phpmyadmin.net
+--
+-- Host: 97.74.30.48
+-- Generation Time: Dec 11, 2011 at 10:11 AM
+-- Server version: 5.0.91
+-- PHP Version: 5.1.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `prophet118`
+--
+CREATE DATABASE `prophet118` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `prophet118`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Galleries`
+--
+
+CREATE TABLE `Galleries` (
+  `Idnum` int(11) NOT NULL,
+  `Name` text NOT NULL,
+  `category` text NOT NULL,
+  `date` date NOT NULL,
+  `link_name` text NOT NULL,
+  PRIMARY KEY  (`Idnum`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `Galleries`
+--
+
+INSERT INTO `Galleries` VALUES(0, 'disgruntled kitty tshirt layout.jpg', 'vectors', '2008-09-17', '');
+INSERT INTO `Galleries` VALUES(1, 'Sunday_Park_Picnic_by_prophet118.jpg', 'vectors', '2009-08-14', '');
+INSERT INTO `Galleries` VALUES(2, 'Seasonal_Apple_Pies_by_prophet118.jpg', 'vectors', '2009-08-14', '');
+INSERT INTO `Galleries` VALUES(3, 'Gingham_Apples_by_prophet118.jpg', 'vectors', '2009-08-14', '');
+INSERT INTO `Galleries` VALUES(5, 'Vector_Clouds_by_prophet118.jpg', 'vectors', '2009-08-15', '');
+INSERT INTO `Galleries` VALUES(6, 'Hood_James_wk4_a1.jpg', 'vectors', '2009-12-05', '');
+INSERT INTO `Galleries` VALUES(7, 'splash screen 1.jpg', 'vectors', '2010-08-11', '');
+INSERT INTO `Galleries` VALUES(8, 'splash screen 2.jpg', 'vectors', '2010-08-12', '');
+INSERT INTO `Galleries` VALUES(9, '000336New Days2.jpg', 'terragen', '2009-08-15', '');
+INSERT INTO `Galleries` VALUES(10, '000335New Days1.jpg', 'terragen', '2009-08-15', '');
+INSERT INTO `Galleries` VALUES(11, '000334Counting The Days.jpg', 'terragen', '2009-08-15', '');
+INSERT INTO `Galleries` VALUES(12, '000333Jealousy.jpg', 'terragen', '2009-08-15', '');
+INSERT INTO `Galleries` VALUES(13, 'Ann Ice Queen.jpg', 'misc', '2011-05-18', '');
+INSERT INTO `Galleries` VALUES(14, 'Out There submit.jpg', 'misc', '2009-07-23', '');
+INSERT INTO `Galleries` VALUES(15, 'ASPECT submit.jpg', 'misc', '2009-07-23', '');
+INSERT INTO `Galleries` VALUES(16, 'DEv ID 5.jpg', 'misc', '2009-05-07', '');
+INSERT INTO `Galleries` VALUES(17, 'Bribe.jpg', 'misc', '2006-01-09', '');
+INSERT INTO `Galleries` VALUES(18, 'eyeball.jpg', 'misc', '2005-11-07', '');
+INSERT INTO `Galleries` VALUES(19, '001062strrange thingy.jpg', 'fractals', '2010-05-18', '');
+INSERT INTO `Galleries` VALUES(20, '001061Autumn Leaves.jpg', 'fractals', '2010-05-18', '');
+INSERT INTO `Galleries` VALUES(21, '001060Blue Warped.jpg', 'fractals', '2010-05-18', '');
+INSERT INTO `Galleries` VALUES(22, '000067Beast.jpg', 'fractals', '2010-05-08', '');
+INSERT INTO `Galleries` VALUES(23, 'Healthy Smiles Business Card.jpg', 'designs', '2010-01-14', '');
+INSERT INTO `Galleries` VALUES(24, 'Pro Electric Business Cards.jpg', 'designs', '2010-01-14', '');
+INSERT INTO `Galleries` VALUES(25, 'Hotrod Bus Card.jpg', 'designs', '2010-01-14', '');
+INSERT INTO `Galleries` VALUES(26, 'Mary Kay Postcards.jpg', 'designs', '2010-01-14', '');
+INSERT INTO `Galleries` VALUES(27, 'SW Funding Business Card.jpg', 'designs', '2010-01-14', '');
+INSERT INTO `Galleries` VALUES(28, 'thumbs/adoptakitty mockup.jpg', 'flashwork', '2010-01-07', 'adoptakitty mockup.swf');
+INSERT INTO `Galleries` VALUES(29, 'thumbs/blockmatch.jpg', 'flashwork', '2008-05-05', 'blockmatch.swf');
+INSERT INTO `Galleries` VALUES(30, 'thumbs/Hood_James_video.jpg', 'flashwork', '2010-03-23', 'Hood_James_video.swf');
+INSERT INTO `Galleries` VALUES(31, 'thumbs/Jennifer_Final.jpg', 'flashwork', '2010-05-07', 'Jennifer_Final.swf');
+INSERT INTO `Galleries` VALUES(32, 'thumbs/korea.jpg', 'flashwork', '2010-01-08', 'korea.swf');
+INSERT INTO `Galleries` VALUES(33, 'thumbs/See%20and%20Say.jpg', 'flashwork', '2008-10-08', 'See%20and%20Say.swf');
+INSERT INTO `Galleries` VALUES(34, 'thumbs/sophmore%20digi%20portfolio.jpg', 'flashwork', '2008-12-13', 'sophmore%20digi%20portfolio.swf');
+INSERT INTO `Galleries` VALUES(35, 'Cheeseburger.jpg', 'vectors', '2011-07-20', '');
+INSERT INTO `Galleries` VALUES(36, 'Discount Tabacco5.jpg', 'designs', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(37, 'Slick Finish2.jpg', 'designs', '2011-07-20', '');
+INSERT INTO `Galleries` VALUES(38, 'Southern Insurance.jpg', 'designs', '2011-07-20', '');
+INSERT INTO `Galleries` VALUES(39, 'Sparkle Prelim.jpg', 'designs', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(40, 'bug.jpg', 'vectors', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(41, 'bullet.jpg', 'vectors', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(43, 'pic1.jpg', 'terrapinguitars', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(44, 'pic2.jpg', 'terrapinguitars', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(45, 'pic3.jpg', 'terrapinguitars', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(46, 'pic4.jpg', 'terrapinguitars', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(47, 'pic5.jpg', 'terrapinguitars', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(48, 'pic6.jpg', 'terrapinguitars', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(49, 'pic7.jpg', 'terrapinguitars', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(50, 'pic8.jpg', 'terrapinguitars', '2011-07-21', '');
+INSERT INTO `Galleries` VALUES(51, 'thumbs/Abstract.jpg', 'AniFractals', '2011-07-21', 'Abstract.gif');
+INSERT INTO `Galleries` VALUES(52, 'thumbs/Animation1.jpg', 'AniFractals', '2011-07-21', 'Animation1.gif');
+INSERT INTO `Galleries` VALUES(53, 'thumbs/Burnout.jpg', 'AniFractals', '2011-07-21', 'Burnout.gif');
+INSERT INTO `Galleries` VALUES(54, 'thumbs/cyst.jpg', 'AniFractals', '2011-07-21', 'cyst.gif');
+INSERT INTO `Galleries` VALUES(55, 'thumbs/Downhearted.jpg', 'AniFractals', '2011-07-21', 'Downhearted.gif');
+INSERT INTO `Galleries` VALUES(56, 'thumbs/Dreaming.jpg', 'AniFractals', '2011-07-21', 'Dreaming.gif');
+INSERT INTO `Galleries` VALUES(57, 'thumbs/Fling.jpg', 'AniFractals', '2011-07-21', 'Fling.gif');
+INSERT INTO `Galleries` VALUES(58, 'thumbs/input.jpg', 'AniFractals', '2011-07-21', 'input.gif');
+INSERT INTO `Galleries` VALUES(59, 'thumbs/LavaLamp.jpg', 'AniFractals', '2011-07-21', 'LavaLamp.gif');
+INSERT INTO `Galleries` VALUES(60, 'thumbs/Magical.jpg', 'AniFractals', '2011-07-21', 'Magical.gif');
+INSERT INTO `Galleries` VALUES(61, 'thumbs/NebulaCloud.jpg', 'AniFractals', '2011-07-21', 'NebulaCloud.gif');
+INSERT INTO `Galleries` VALUES(62, 'thumbs/NicolesNebula.jpg', 'AniFractals', '2011-07-21', 'NicolesNebula.gif');
+INSERT INTO `Galleries` VALUES(63, 'thumbs/RebelClause.jpg', 'AniFractals', '2011-07-21', 'RebelClause.gif');
+INSERT INTO `Galleries` VALUES(64, 'thumbs/Scrying.jpg', 'AniFractals', '2011-07-21', 'Scrying.gif');
+INSERT INTO `Galleries` VALUES(65, 'thumbs/sinister.jpg', 'AniFractals', '2011-07-21', 'sinister.gif');
+INSERT INTO `Galleries` VALUES(66, 'thumbs/TrueBlue.jpg', 'AniFractals', '2011-07-21', 'TrueBlue.gif');
+INSERT INTO `Galleries` VALUES(67, 'tv set.jpg', 'vectors', '2011-07-22', '');
+INSERT INTO `Galleries` VALUES(68, 'world logo.jpg', 'vectors', '2011-07-22', '');
+INSERT INTO `Galleries` VALUES(69, '8X6 Blueprints.jpg', 'designs', '2011-07-26', '');
+INSERT INTO `Galleries` VALUES(70, 'Southern Insurance Blueprints.jpg', 'designs', '2011-07-27', '');
+INSERT INTO `Galleries` VALUES(71, 'light saber.jpg', 'vectors', '2011-09-02', '');
+INSERT INTO `Galleries` VALUES(72, 'guy and girl.jpg', 'vectors', '2011-09-06', '');
+INSERT INTO `Galleries` VALUES(73, 'IMAG0070.jpg', 'published', '2011-09-26', '');
+INSERT INTO `Galleries` VALUES(74, 'IMAG0071.jpg', 'published', '2011-09-26', '');
+INSERT INTO `Galleries` VALUES(75, 'IMAG0072.jpg', 'published', '2011-09-26', '');
+INSERT INTO `Galleries` VALUES(76, 'postit.png', 'designs', '2011-11-01', '');
+INSERT INTO `Galleries` VALUES(77, 'tape-menu.png', 'designs', '2011-11-01', '');
+INSERT INTO `Galleries` VALUES(78, 'tornpaper.png', 'designs', '2011-11-01', '');
+INSERT INTO `Galleries` VALUES(79, '000053Nothing on Top.jpg', 'fractals', '2011-11-02', '');
+INSERT INTO `Galleries` VALUES(80, '000022True Blue.jpg', 'fractals', '2011-11-02', '');
+INSERT INTO `Galleries` VALUES(82, '000031Shocking Blue.jpg', 'fractals', '2011-11-02', '');
+INSERT INTO `Galleries` VALUES(83, '000548Hive Mind.jpg', 'fractals', '2011-11-02', '');
+INSERT INTO `Galleries` VALUES(84, '000268Influx.jpg', 'fractals', '2011-11-02', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Users`
+--
+
+CREATE TABLE `Users` (
+  `User_ID` int(11) NOT NULL,
+  `Username` text NOT NULL,
+  `Password` text NOT NULL,
+  PRIMARY KEY  (`User_ID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `Users`
+--
+
+INSERT INTO `Users` VALUES(0, 'prophet118', 'be1dd0a3ac22b7638dbe0bba16c3103e');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `naughtygeek_orders`
+--
+
+CREATE TABLE `naughtygeek_orders` (
+  `User_ID` int(11) NOT NULL,
+  `Username` text NOT NULL,
+  `Password` text NOT NULL,
+  `filelist` text NOT NULL,
+  `View` text NOT NULL,
+  PRIMARY KEY  (`User_ID`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `naughtygeek_orders`
+--
+
+INSERT INTO `naughtygeek_orders` VALUES(0, 'mga6977@gmail.com', '21fd5f4d7a37b5c25d8113e1680921a8', '', 'No');
+INSERT INTO `naughtygeek_orders` VALUES(1, 'mga6977@gmail.com', '21fd5f4d7a37b5c25d8113e1680921a8', '', 'No');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `sites`
+--
+
+CREATE TABLE `sites` (
+  `Idnum` int(11) NOT NULL,
+  `Address` text NOT NULL,
+  `Name` text NOT NULL,
+  `Role` text NOT NULL,
+  `Company` text NOT NULL,
+  `Image` text NOT NULL,
+  `Category` text NOT NULL,
+  `Description` text NOT NULL,
+  PRIMARY KEY  (`Idnum`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `sites`
+--
+
+INSERT INTO `sites` VALUES(8, 'http://www.lostcreekrecords.com', 'Tim Watson', 'Lead Developer, Designer and Coder', 'Freelance', '', 'production', 'Website created for musician/lawyer in DC.');
+INSERT INTO `sites` VALUES(1, 'http://bjorkcs.com/', 'Bjork Creative Services', 'Back end PHP Coder, Dynamic content, MySQL Database admin', 'Bjork Creative Services', 'bjork.jpg', 'production', 'Worked alongside a graphic designer');
+INSERT INTO `sites` VALUES(2, 'http://www.patrickuph.com/', 'Patricks Upholstery', 'Back end PHP Coder, Dynamic content, MySQL Database admin, Flash banner, structure', 'Bjork Creative Services', 'patricks.jpg', 'production', 'Worked alongside a graphic designer, lauched website from PSD file into full website');
+INSERT INTO `sites` VALUES(3, 'http://stirfryonline.com/', 'Stirfry Mongolian Grill', 'Back end PHP Coder, Dynamic content, MySQL Database admin, Flash banner, structure', 'Bjork Creative Services', 'stirfry.jpg', 'production', 'Site no longer active, worked along side a graphic designer, took PSD slices and converted into a tableless layout and design');
+INSERT INTO `sites` VALUES(4, 'http://www.ayersfarmersmarket.com/', 'Ayers Farmers Market', ' Back end PHP Coder, Dynamic content, MySQL Database admin, Seasonally Changing background image code', 'Bjork Creative Services', 'ayersfarmersmarket.jpg', 'production', 'Worked alongside a graphic designer, took care of all php content including back end admin functions coded by hand. ');
+INSERT INTO `sites` VALUES(6, 'http://www.rocketcitydrywall.com/', 'Rocket City Drywall', 'PHP and MySQL, back end admin, Customer Talkback designer, ', 'Bjork Creative Services', 'rocketcitydrywall.jpg', 'production', 'Worked alongside a graphic designer, took care of all php content including back end admin functions coded by hand. ');
+INSERT INTO `sites` VALUES(7, 'http://www.chipheads.net/', 'Chiphead Solutions', 'Back end Admin, PHP/MySQL', 'Bjork Creative Services', 'chiphead.jpg', 'production', 'Worked alongside a graphic designer, took care of all php content including back end admin functions coded by hand. ');
+INSERT INTO `sites` VALUES(9, 'http://jameshood118.org/tests/ancestry/', 'Ancestry Skills Assessment', 'Front End Developer, took PSD converting into working website', 'Ancestry.com', '', 'test', 'Skills test administered by Ancestry');
+INSERT INTO `sites` VALUES(10, 'http://jameshood118.org/Nerdy/index.php', 'The Nerdery Skills Test', 'Front End Web Development, took PSD, converted into working site', 'nerdery.com', 'nerdery.jpg', 'test', 'Skills test administered by The Nerdery, using CSS3 and HTML5 along with Jquery');
+INSERT INTO `sites` VALUES(11, 'http://www.lostcreekrecords.com/musicplayer3.php', 'Lost Creek Records', 'Lead Developer, Designer and Coder.\r\n', 'Freelance', '', 'test', 'Redesigned the musicplayer to use emerging technologies such as HTML5 and CSS3 with Javascript Soundmanager2.');
+INSERT INTO `sites` VALUES(12, 'http://jameshood118.org/weather_buster.php', 'Google Weather API ', 'Lead Developer', 'Freelance', '', 'test', 'I was tasked by a company to create an app/website that interacted with the Google Weather API. (Unfinished)');
